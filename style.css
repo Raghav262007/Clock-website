@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  color: rgb(240, 240, 83);
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 50px;
+  color: rgb(26, 197, 117);
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border: 3px soldi white;
+  border-radius: 50px;
+  background: #202020;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+#stopwatch {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+}
+#buttons {
+  position: relative;
+  left: 400px;
+  width: 500px;
+}
+#buttons li {
+  display: inline;
+  padding-left: 10px;
+}

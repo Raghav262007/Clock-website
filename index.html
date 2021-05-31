@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Clock Master</h1>
+
+    <h2>Stopwatch</h2>
+
+    <div id="stopwatch">00:00:00:00</div>
+
+    <ul id="buttons">
+      <li><button onclick="startStopwatch()">Start</button></li>
+      <li><button onclick="stopStopwatch()">Stop</button></li>
+      <li><button onclick="resetStopwatch()">Reset</button></li>
+      <li>
+        <button onclick="lapTimer()" id="lapButton" type="button">Laps</button>
+      </li>
+    </ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
